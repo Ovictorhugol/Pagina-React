@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+.Header-barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:50px 0 0 0;
+    font-family: 'Mulish', sans-serif;
+}
+.Header-barra-menu-lista{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.Header-barra-menu-lista-item{
+    color: gray;
+}
+.Header-barra-menu-lista-item:hover{
+    color:#458FF6;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content:space-around;
+    margin:60px 0 0 0;
+    align-items: center;
+    font-family: 'Mulish', sans-serif;
+    
+}
+.conteudo-apresentacao{
+    display: flex;
+    flex-direction: column;
+    gap: 2em; 
+    
+}
+.conteudo-apresentacao-titulo{
+    font-size:56px;
+    font-Weight:500;
+    max-width: 50%;
+}
+.conteudo-apresentacao-subtitulo{
+    font-size: 20px;
+    font-weight: 100;
+    max-width: 50%;
+
+}
+.conteudo-apresentacao-botao{
+    max-width: 140px;
+    height: 50px;
+    background-color: #458FF6;
+    border-radius: 25px;
+    text-decoration: none;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    color: #f9f9f9;
+    font-size: 15px;
+}
+.conteudo-apresentacao-botao:hover{
+    max-width: 140px;
+    height: 50px;
+    background-color: #8db8f5;
+    border-radius: 25px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color: #f9f9f9;
+    font-size: 17px;
+}
+.conteudo-apresentacao-imagem{
+    max-width:400px;
+
+    float: left;
+}
+
+.Footer{
+    background-image: url(./assets/bg.svg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    font-family: 'Mulish', sans-serif;
+    
+}
+
+.Footer-conteudo{
+    display: flex;
+    justify-content: space-around;
+    color: #f9f9f9;
+    margin-top:5em;
+    padding: 5em;
+    align-items: center;
+}
+
+
+.Footer-conteudo-company{
+    display: flex;
+    flex-direction: column;
+}
+.Footer-conteudo-company-item-principal{
+    font-size:20px;
+    margin-bottom:15px;
+}
+.Footer-conteudo-company-item{
+    font-size:17px
+}
+.Footer-conteudo-company-item:hover{
+    color: rgb(255, 175, 212);
+    cursor: pointer;
+}
+
+.Footer-conteudo-region-item-principal{
+    font-size:20px;
+    margin-bottom:15px;
+}
+.Footer-conteudo-region-item{
+    font-size:17px;
+}
+.Footer-conteudo-region-item:hover{
+    color: rgb(255, 175, 212);
+    cursor: pointer;
+}
